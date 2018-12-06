@@ -154,4 +154,6 @@ CGPoint RSKLineSegmentIntersection(RSKLineSegment ls1, RSKLineSegment ls2)
     }
     
     return CGPointMake(x1 + uA * (x2 - x1), y1 + uA * (y2 - y1));
+    
+    
 }
